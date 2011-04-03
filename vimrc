@@ -30,7 +30,7 @@ map Q gq
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
-  color elflord
+  color railscasts
 endif
 
 call pathogen#runtime_append_all_bundles()
@@ -56,6 +56,8 @@ if !exists("autocommands_loaded")
 		autocmd BufRead *.c set cindent
 	augroup END
 endif
+
+au BufNewFile,BufRead *.psgi set filetype=perl
 
 let b:tt2_syn_tags = '\[% %] <!-- -->'
 
