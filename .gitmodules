@@ -7,3 +7,6 @@
 [submodule "bundle/coffee-script"]
 	path = bundle/coffee-script
 	url = http://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/scss"]
+	path = bundle/scss
+	url = https://github.com/cakebaker/scss-syntax.vim.git
