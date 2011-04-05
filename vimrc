@@ -30,6 +30,7 @@ map Q gq
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
+  set number
   color railscasts
 endif
 

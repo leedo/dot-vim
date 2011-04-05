@@ -1,4 +1,4 @@
-color vividchalk
+color railscasts
 set guioptions=cMe
 set guifont=Deja\ Vu\ Sans\ Mono\ 14
 syntax on
