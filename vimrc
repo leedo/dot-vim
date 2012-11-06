@@ -31,7 +31,7 @@ if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
   set number
-  color railscasts
+  colorscheme railscasts
 endif
 
 call pathogen#runtime_append_all_bundles()
