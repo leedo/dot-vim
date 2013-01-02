@@ -22,7 +22,7 @@ set laststatus=2
 if has("vms")
   set nobackup
 else
-  set backupdir=~/.backup/
+  set backupdir=~/.vim/backup/
   set backup
 endif
 map Q gq
