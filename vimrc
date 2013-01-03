@@ -10,12 +10,10 @@ set shiftwidth=2
 set smarttab
 set expandtab
 set softtabstop=2
-
 set history=50
 set ruler
 set showcmd	
 set incsearch
-
 set ruler
 set laststatus=2
 
@@ -60,18 +58,12 @@ endif
 
 au BufNewFile,BufRead *.psgi set filetype=perl
 
-let b:tt2_syn_tags = '\[% %] <!-- -->'
-
-map <F7> :new<CR>:read !svn diff<CR>:set syntax=diff buftype=nofile<CR>gg
-map <F1> :NERDTreeToggle
 let Tlist_File_Fold_Auto_Close=1
 let Tlist_Enable_Fold_Column=0
 let Tlist_Compact_Format=1
+
 set bg=dark
 set encoding=utf-8
 set fileencoding=utf-8
-
-map <C-k> :noh<CR>
-
 set wildmode=longest,list,full
 set wildmenu
