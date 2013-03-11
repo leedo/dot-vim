@@ -70,7 +70,7 @@ set wildmenu
 
 let g:gitgutter_highlights=0
 hi SignColumn   guifg=#595959 guibg=#2b2b2b ctermfg=243 ctermbg=235
-hi lineAdded    guifg=#009900 guibg=#2b2b2b ctermfg=2   ctermbg=235
-hi lineModified guifg=#bbbb00 guibg=#2b2b2b ctermfg=3   ctermbg=235
-hi lineRemoved  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
-
+hi GitGutterAdd    guifg=#009900 guibg=#2b2b2b ctermfg=2   ctermbg=235
+hi GitGutterChange guifg=#bbbb00 guibg=#2b2b2b ctermfg=3   ctermbg=235
+hi GitGutterDelete  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
+hi GitGutterChnageDelete  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
