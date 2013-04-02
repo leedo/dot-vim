@@ -25,3 +25,6 @@
 [submodule "bundle/perl"]
 	path = bundle/perl
 	url = git://github.com/vim-perl/vim-perl.git
+[submodule "bundle/css3"]
+	path = bundle/css3
+	url = git://github.com/hail2u/vim-css3-syntax.git
