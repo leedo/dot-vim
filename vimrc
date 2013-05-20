@@ -79,3 +79,5 @@ set statusline=\ %F%m%r%h%w\ \
 set statusline+=%=%y\ \ 
 set statusline+=%{fugitive#statusline()}\ \ 
 set statusline+=%l,%c\ \ %P\ 
+
+nmap ! :ConqueTermSplit bash -l<CR>
