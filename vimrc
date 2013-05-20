@@ -74,3 +74,8 @@ hi GitGutterAdd    guifg=#009900 guibg=#2b2b2b ctermfg=2   ctermbg=235
 hi GitGutterChange guifg=#bbbb00 guibg=#2b2b2b ctermfg=3   ctermbg=235
 hi GitGutterDelete  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
 hi GitGutterChnageDelete  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
+
+set statusline=\ %F%m%r%h%w\ \ 
+set statusline+=%=%y\ \ 
+set statusline+=%{fugitive#statusline()}\ \ 
+set statusline+=%l,%c\ \ %P\ 
