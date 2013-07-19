@@ -80,4 +80,6 @@ set statusline+=%=%y\ \
 set statusline+=%{fugitive#statusline()}\ \ 
 set statusline+=%l,%c\ \ %P\ 
 
+cnoremap <C-a> <C-b>
+
 nmap ! :ConqueTermSplit bash -l<CR>
