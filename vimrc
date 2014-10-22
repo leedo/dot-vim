@@ -62,6 +62,8 @@ let Tlist_File_Fold_Auto_Close=1
 let Tlist_Enable_Fold_Column=0
 let Tlist_Compact_Format=1
 
+let perl_no_subprototype_error=1
+
 set bg=dark
 set encoding=utf-8
 set fileencoding=utf-8
