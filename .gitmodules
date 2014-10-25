@@ -52,3 +52,6 @@
 [submodule "bundle/flappvird"]
 	path = bundle/flappvird
 	url = https://github.com/mattn/flappyvird-vim.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
