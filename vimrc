@@ -1,7 +1,3 @@
-if v:progname =~? "evim"
-  finish
-endif
-
 set nocompatible
 
 set backspace=indent,eol,start
@@ -16,21 +12,16 @@ set showcmd
 set incsearch
 set ruler
 set laststatus=2
+set showmatch
 
-if has("vms")
-  set nobackup
-else
-  set backupdir=~/.vim/backup/
-  set backup
-endif
-map Q gq
+set hlsearch
+set number
 
-if &t_Co > 2 || has("gui_running")
-  syntax on
-  set hlsearch
-  set number
-  colorscheme railscasts
-endif
+syntax on
+colorscheme railscasts
+
+set backupdir=~/.vim/backup/
+set backup
 
 call pathogen#runtime_append_all_bundles()
 
@@ -49,18 +40,7 @@ else
     set autoindent
 endif
 
-if !exists("autocommands_loaded")
-	let autocommands_loaded = 1
-	augroup C
-		autocmd BufRead *.c set cindent
-	augroup END
-endif
-
 au BufNewFile,BufRead *.psgi set filetype=perl
-
-let Tlist_File_Fold_Auto_Close=1
-let Tlist_Enable_Fold_Column=0
-let Tlist_Compact_Format=1
 
 let perl_no_subprototype_error=1
 
