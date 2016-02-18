@@ -64,3 +64,6 @@
 [submodule "bundle/vim-perl"]
 	path = bundle/vim-perl
 	url = https://github.com/vim-perl/vim-perl.git
+[submodule "vcl"]
+	path = vcl
+	url = https://github.com/ezkl/vim-syntax-vcl.git
