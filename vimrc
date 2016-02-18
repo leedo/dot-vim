@@ -40,7 +40,6 @@ else
     set autoindent
 endif
 
-au BufNewFile,BufRead *.psgi set filetype=perl
 
 let perl_no_subprototype_error=1
 
