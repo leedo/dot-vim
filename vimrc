@@ -54,7 +54,13 @@ hi SignColumn   guifg=#595959 guibg=#2b2b2b ctermfg=243 ctermbg=235
 hi GitGutterAdd    guifg=#009900 guibg=#2b2b2b ctermfg=2   ctermbg=235
 hi GitGutterChange guifg=#bbbb00 guibg=#2b2b2b ctermfg=3   ctermbg=235
 hi GitGutterDelete  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
-hi GitGutterChnageDelete  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
+hi GitGutterChangeDelete  guifg=#ff2222 guibg=#2b2b2b ctermfg=1   ctermbg=235
+
+hi CursorLine cterm=NONE ctermbg=243 ctermfg=black
+hi CtrlPMatch cterm=bold ctermbg=243 ctermfg=white
+hi CtrlPMode1 guifg=Black guibg=#aabbee gui=bold ctermfg=Black ctermbg=153 cterm=bold
+hi CtrlPMode2 guifg=Black guibg=#aabbee gui=bold ctermfg=Black ctermbg=153 cterm=bold
+hi CtrlPStats guifg=Black guibg=#aabbee gui=bold ctermfg=Black ctermbg=153 cterm=bold
 
 set statusline=\ %F%m%r%h%w\ \ 
 set statusline+=%=%y\ \ 

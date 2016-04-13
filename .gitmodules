@@ -67,3 +67,6 @@
 [submodule "vcl"]
 	path = vcl
 	url = https://github.com/ezkl/vim-syntax-vcl.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:ctrlpvim/ctrlp.vim.git
