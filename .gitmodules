@@ -73,3 +73,6 @@
 [submodule "bundle/vim-perl6"]
 	path = bundle/vim-perl6
 	url = https://github.com/vim-perl/vim-perl6
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
