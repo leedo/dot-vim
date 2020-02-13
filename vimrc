@@ -1,11 +1,11 @@
 set nocompatible
 
 set backspace=indent,eol,start
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set smarttab
 set expandtab
-set softtabstop=2
+set softtabstop=4
 set history=50
 set ruler
 set showcmd	
@@ -49,6 +49,7 @@ set fileencoding=utf-8
 set wildmode=longest,list,full
 set wildmenu
 
+let g:go_fmt_command = "goimports"
 let g:gitgutter_highlights=0
 hi SignColumn   guifg=#595959 guibg=#2b2b2b ctermfg=243 ctermbg=235
 hi GitGutterAdd    guifg=#009900 guibg=#2b2b2b ctermfg=2   ctermbg=235
@@ -70,3 +71,4 @@ set statusline+=%l,%c\ \ %P\
 cnoremap <C-a> <C-b>
 
 nmap ! :ConqueTermSplit bash -l<CR>
+let g:rustfmt_autosave = 1
