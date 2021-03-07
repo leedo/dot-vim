@@ -70,5 +70,5 @@ set statusline+=%l,%c\ \ %P\
 
 cnoremap <C-a> <C-b>
 
-nmap ! :ConqueTermSplit bash -l<CR>
+nmap ! :terminal<CR>
 let g:rustfmt_autosave = 1
