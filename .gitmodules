@@ -82,3 +82,6 @@
 [submodule "bundle/vim-varnish"]
 	path = bundle/vim-varnish
 	url = git@github.com:fgsch/vim-varnish.git
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim
