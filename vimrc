@@ -51,6 +51,21 @@ set wildmenu
 
 let g:go_fmt_command = "goimports"
 let g:gitgutter_highlights=0
+let g:rustfmt_autosave = 1
+
+let g:lsc_server_commands = {'rust': 'rust-analyzer', 'go': 'gopls'}
+let g:lsc_auto_map = v:true
+
+let g:ale_go_govet_options = '-vettool=$(which shadow)'
+let g:ale_linters = {'go': ['gopls'], 'rust': ['cargo', 'analyzer']} " disabled golang staticcheck because of false positives (e.g. it would show errors about references not being defined, when they exist in the same package but in a different file)
+let g:ale_python_mypy_options = '--ignore-missing-imports --strict-equality'
+let g:ale_sign_error = '✗'
+let g:ale_sign_warning = '▲'
+highlight link ALEWarningSign String
+highlight link ALEErrorSign Title
+nmap <silent> <leader>x :ALENext<cr>
+nmap <silent> <leader>z :ALEPrevious<cr>
+
 hi SignColumn   guifg=#595959 guibg=#2b2b2b ctermfg=243 ctermbg=235
 hi GitGutterAdd    guifg=#009900 guibg=#2b2b2b ctermfg=2   ctermbg=235
 hi GitGutterChange guifg=#bbbb00 guibg=#2b2b2b ctermfg=3   ctermbg=235

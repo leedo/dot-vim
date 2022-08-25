@@ -85,3 +85,9 @@
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim
+[submodule "bundle/vim-lsc"]
+	path = bundle/vim-lsc
+	url = https://github.com/natebosch/vim-lsc.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/dense-analysis/ale.git
