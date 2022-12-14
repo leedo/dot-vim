@@ -1,12 +1,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = http://github.com/mileszs/ack.vim.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = http://github.com/scrooloose/nerdtree.git
-[submodule "bundle/coffee-script"]
-	path = bundle/coffee-script
-	url = http://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/scss"]
 	path = bundle/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
@@ -25,9 +19,6 @@
 [submodule "bundle/css3"]
 	path = bundle/css3
 	url = git://github.com/hail2u/vim-css3-syntax.git
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
 [submodule "bundle/conque"]
 	path = bundle/conque
 	url = git://github.com/rygwdn/vim-conque.git
@@ -46,9 +37,6 @@
 [submodule "bundle/base16-vim"]
 	path = bundle/base16-vim
 	url = https://github.com/chriskempson/base16-vim.git
-[submodule "bundle/flappvird"]
-	path = bundle/flappvird
-	url = https://github.com/mattn/flappyvird-vim.git
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
 	url = https://github.com/digitaltoad/vim-jade.git
