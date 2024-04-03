@@ -12,13 +12,13 @@
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/perl"]
 	path = bundle/perl
-	url = git://github.com/vim-perl/vim-perl.git
+	url = https://github.com/vim-perl/vim-perl.git
 [submodule "bundle/css3"]
 	path = bundle/css3
-	url = git://github.com/hail2u/vim-css3-syntax.git
+	url = https://github.com/hail2u/vim-css3-syntax.git
 [submodule "bundle/conque"]
 	path = bundle/conque
-	url = git://github.com/rygwdn/vim-conque.git
+	url = https://github.com/rygwdn/vim-conque.git
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
@@ -45,7 +45,7 @@
 	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/blade"]
 	path = bundle/blade
-	url = git://github.com/xsbeats/vim-blade.git
+	url = https://github.com/xsbeats/vim-blade.git
 [submodule "bundle/vim-perl"]
 	path = bundle/vim-perl
 	url = https://github.com/vim-perl/vim-perl.git
@@ -54,7 +54,7 @@
 	url = https://github.com/ezkl/vim-syntax-vcl.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
-	url = git@github.com:ctrlpvim/ctrlp.vim.git
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "bundle/vim-perl6"]
 	path = bundle/vim-perl6
 	url = https://github.com/vim-perl/vim-perl6
@@ -66,7 +66,7 @@
 	url = https://github.com/fatih/vim-go.git
 [submodule "bundle/vim-varnish"]
 	path = bundle/vim-varnish
-	url = git@github.com:fgsch/vim-varnish.git
+	url = https://github.com/fgsch/vim-varnish.git
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim
@@ -78,7 +78,7 @@
 	url = https://github.com/dense-analysis/ale.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
