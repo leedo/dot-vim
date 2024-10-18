@@ -82,3 +82,6 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-cue"]
+	path = bundle/vim-cue
+	url = git@github.com:jjo/vim-cue.git
